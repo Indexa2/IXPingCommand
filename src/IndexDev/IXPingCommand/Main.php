@@ -19,7 +19,7 @@ class PingCommand extends Command {
 
     public function __construct(string $name, string $description = "", string $usageMessage = "", array $aliases = [], string $permission = "") {
         parent::__construct($name, $description, $usageMessage, $aliases);
-        $this->setPermission("inping.cmd");
+        $this->setPermission("ixping.cmd");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool {
