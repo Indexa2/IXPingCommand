@@ -11,7 +11,7 @@ use pocketmine\utils\TextFormat;
 class Main extends PluginBase {
 
     protected function onEnable(): void {
-        $this->getServer()->getCommandMap()->register("ping", new PingCommand("ping", "Check your ping", "/ping", ["p"], "inping.cmd"));
+        $this->getServer()->getCommandMap()->register("ping", new PingCommand("ping", "Check your ping", "/ping", ["p"], "ixping.cmd"));
     }
 }
 
